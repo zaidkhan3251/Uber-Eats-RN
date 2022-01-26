@@ -21,15 +21,13 @@ export default function SearchBar() {
         textInput: {
             backgroundColor: '#eee',
             borderRadius:20,
-            fontweight:"700",
+            fontWeight:"700",
             marginTop:7
 
 
        
         },
-        // predefinedPlacesDescription: {
-        //   color: '#1faadb',
-        // },
+       
       }}
      renderLeftButton={()=>(
          <View style={{marginLeft:10}}>

@@ -20,7 +20,7 @@ borderRadius:30}}
 onPress={()=> props.setActiveTab(props.text)}
 ><Text style={{color: props.activeTab==props.text? "white":"black", fontSize:15,
 
-fontWeight:'900'
+fontWeight:'bold'
 
 }}>{props.text}</Text></TouchableOpacity>
 )

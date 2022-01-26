@@ -49,15 +49,16 @@ export default function Categories() {
 
     }}>
     <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-      {items.map((item,index)=>(<View style={{ alignItems: "center", marginRight: 30 }}>
+      {items.map((item,index)=>(<View style={{ alignItems: "center", marginRight: 30 }} key={index}>
         <Image source={item.image}
           style={{
             width: 50,
             height: 50,
             resizeMode: "contain"
+          
           }}
         />
-        <Text style={{ fontSize: 13, fontWeight: "900" }}>{item.text}</Text>
+        <Text style={{ fontSize: 13, fontWeight: "bold" }}>{item.text}</Text>
       </View>))}
       
     </ScrollView></View>
